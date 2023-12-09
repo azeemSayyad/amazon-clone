@@ -4,13 +4,19 @@ import flag from "../Images/IndiaFlag.webp";
 import { CiLocationOn } from "react-icons/ci";
 import { AiOutlineSearch } from "react-icons/ai";
 import { AiOutlineShoppingCart } from "react-icons/ai";
+import { useState } from "react";
+import { CgSearch } from "react-icons/cg";
 
 const Navbar = () => {
+
+  const [isInputClicked,setIsInputClicked] = useState();
+
+
   return (
     <header className=" min-w-[1000px]">
       <div className=" z-40 flex justify-between items-center bg-gray-900 h-[55px] w-full px-2  font-[14px]">
         {/**Nav div left */}
-        <div className="flex justify-between items-center gap-3">
+        <div className="flex justify-between items-center gap-3 px-3">
           {/**amazon logo */}
           <div className={` max-w-[100px] w-auto hover:border border-white cursor-pointer `}>
             <img src={amazon} alt="amazon" />
@@ -40,12 +46,31 @@ const Navbar = () => {
             </select>
           </div>
 
-          <div className={`flex  w-full lg1:max-w-[500px] `}>
+          <div onClick={()=>setIsInputClicked(true)} className={`flex  w-full lg1:max-w-[500px] `}>
             <input className="p-1 w-full " placeholder="Search Amazon.in" />
           </div>
 
+          {/**Input recommendations */}
+          {isInputClicked && (
+            <div className="bg-white text-black font-semibold relative top-[10rem] left-[10rem] w-[400px] z-50">
+              <div className="flex gap-3 hover:bg-gray-300 p-4 w-full">
+                <CgSearch fontSize={"15px"}/>
+                <p>Iphone 15 plus</p>
+              </div>
+              <div className="flex gap-3 hover:bg-gray-300 p-4">
+                <CgSearch fontSize={"15px"}/>
+                <p>Men's Footwear</p>
+              </div>
+              <div className="flex gap-3 hover:bg-gray-300 p-4">
+                <CgSearch fontSize={"15px"}/>
+                <p>Best Gaming Laptop under 15K</p>
+              </div>
+              <button onClick={()=>setIsInputClicked(false)} className="bg-red w-[100px] p-3">Close</button>
+            </div>
+          )}
+
           <div className={`flex max-w-[100px] `}>
-            <div className="flex  w-full align-middle justify-center px-[1em] bg-orange-300 rounded-sm rounded-tl-none rounded-bl-none">
+            <div className="flex  w-full items-center justify-center px-[1em] bg-orange-300 rounded-sm rounded-tl-none rounded-bl-none">
               <AiOutlineSearch fontSize={"1.5em"} className="" />
             </div>
           </div>
