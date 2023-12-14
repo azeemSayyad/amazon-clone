@@ -4,12 +4,18 @@ import { Navigation, Autoplay } from "swiper";
 import "swiper/css";
 import "swiper/css/navigation";
 
-import carousel1 from "../Images/carousel_1.jpg";
-import carousel3 from "../Images/carousel_3.jpg";
-import carousel4 from "../Images/carousel_4.jpg";
-import carousel5 from "../Images/carousel_5.jpg";
+// import carousel1 from "../Images/carousel_1.jpg";
+// import carousel3 from "../Images/carousel_3.jpg";
+// import carousel4 from "../Images/carousel_4.jpg";
+// import carousel5 from "../Images/carousel_5.jpg";
 
-import carouselVid from "../Images/carousel_vid.mp4";
+const carousel1 ="";
+const carousel3 ="";
+const carousel4 ="";
+const carousel5 ="";
+
+const carouselVid = "";
+// import carouselVid from "../Images/carousel_vid.mp4";
 
 const Carousel = () => {
   return (

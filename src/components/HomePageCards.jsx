@@ -1,15 +1,25 @@
 import React from "react";
 import HomeCard from "./HomeCard";
 
-import card1 from "../Images/homePage_grid_1.jpeg";
-import card2 from "../Images/home_grid_2.jpg";
-import card3 from "../Images/home_grid_3.jpg";
-import card4 from "../Images/home_grid_4.jpg";
-import card5 from "../Images/home_grid_5.jpg";
-import card6 from "../Images/home_grid_6.jpg";
-import card7 from "../Images/home_grid_7.jpg";
-import card8 from "../Images/home_grid_8.jpg";
-import card9 from "../Images/home_grid_9.jpeg";
+// import card1 from "../Images/homePage_grid_1.jpeg";
+// import card2 from "../Images/home_grid_2.jpg";
+// import card3 from "../Images/home_grid_3.jpg";
+// import card4 from "../Images/home_grid_4.jpg";
+// import card5 from "../Images/home_grid_5.jpg";
+// import card6 from "../Images/home_grid_6.jpg";
+// import card7 from "../Images/home_grid_7.jpg";
+// import card8 from "../Images/home_grid_8.jpg";
+// import card9 from "../Images/home_grid_9.jpeg";
+
+const card1 =  "";
+const card2 =  "";
+const card3 =  "";
+const card4 =  "";
+const card5 =  "";
+const card6 =  "";
+const card7 =  "";
+const card8 =  "";
+const card9 =  "";
 
 const HomePageCard = () => {
   return (

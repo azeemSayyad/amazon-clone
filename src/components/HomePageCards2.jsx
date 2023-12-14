@@ -1,32 +1,58 @@
-import card1 from "../Images/card1.jpg";
-import card2 from "../Images/card2.jpg";
-import card3 from "../Images/card3.jpg";
-import card4 from "../Images/card4.jpg";
-import card5 from "../Images/card5.jpg";
-import card6 from "../Images/card6.jpg";
-import card7 from "../Images/card7.jpg";
-import card8 from "../Images/card8.jpg";
-
-import img1 from "../Images/product_0_small.jpg";
-import img2 from "../Images/product_1_small.jpg";
-import img3 from "../Images/product_2_small.jpg";
-import img4 from "../Images/product_3_small.jpg";
-import img5 from "../Images/product_4_small.jpg";
-import img6 from "../Images/product_5_small.jpg";
-import img7 from "../Images/product_6_small.jpg";
-import img8 from "../Images/product_7_small.jpg";
-import img9 from "../Images/product_8_small.jpg";
-
-import category0 from "../Images/category_0.jpg";
-import category1 from "../Images/category_1.jpg";
-import category2 from "../Images/category_2.jpg";
-import category3 from "../Images/category_3.jpg";
-import category4 from "../Images/category_4.jpg";
-import category5 from "../Images/category_5.jpg";
-
 import CarouselCategory from "./CarouselCategory1";
-
 import HomeCard from "./HomeCard";
+const  card1 = "";
+const  card2 = "";
+const  card3 = "";
+const  card4 = "";
+const  card5 = "";
+const  card6 = "";
+const  card7 = "";
+const  card8 = "";
+
+// import card1 from "../Images/card1.jpg";
+// import card2 from "../Images/card2.jpg";
+// import card3 from "../Images/card3.jpg";
+// import card4 from "../Images/card4.jpg";
+// import card5 from "../Images/card5.jpg";
+// import card6 from "../Images/card6.jpg";
+// import card7 from "../Images/card7.jpg";
+// import card8 from "../Images/card8.jpg";
+
+const  img1 =  "";
+const  img2 =  "";
+const  img3 =  "";
+const  img4 =  "";
+const  img5 =  "";
+const  img6 =  "";
+const  img7 =  "";
+const  img9 =  "";
+const  img8 =  "";
+
+// import img1 from "../Images/product_0_small.jpg";
+// import img2 from "../Images/product_1_small.jpg";
+// import img3 from "../Images/product_2_small.jpg";
+// import img4 from "../Images/product_3_small.jpg";
+// import img5 from "../Images/product_4_small.jpg";
+// import img6 from "../Images/product_5_small.jpg";
+// import img7 from "../Images/product_6_small.jpg";
+// import img8 from "../Images/product_7_small.jpg";
+// import img9 from "../Images/product_8_small.jpg";
+
+// import category0 from "../Images/category_0.jpg";
+// import category1 from "../Images/category_1.jpg";
+// import category2 from "../Images/category_2.jpg";
+// import category3 from "../Images/category_3.jpg";
+// import category4 from "../Images/category_4.jpg";
+// import category5 from "../Images/category_5.jpg";
+
+const  category0 =  "";
+const  category1 =  "";
+const  category2 =  "";
+const  category3 =  "";
+const  category4 =  "";
+const  category5 =  "";
+
+
 
 const HomePageCards2 = () => {
 

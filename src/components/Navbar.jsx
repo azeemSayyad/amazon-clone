@@ -1,11 +1,16 @@
-import amazon from "../Images/amazon1.png";
-import flag from "../Images/IndiaFlag.webp";
+
+
+// import amazon from "../Images/amazon1.png";
+// import flag from "../Images/IndiaFlag.webp";
 
 import { CiLocationOn } from "react-icons/ci";
 import { AiOutlineSearch } from "react-icons/ai";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 import { useState } from "react";
 import { CgSearch } from "react-icons/cg";
+
+const  amazon =  "";
+const  flag =  "";
 
 const Navbar = () => {
 
